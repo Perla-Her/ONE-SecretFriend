@@ -22,7 +22,7 @@ function agregarAmigo(){
     } else {
         friends.push(name);
         cleanbox();
-        console.log(`lista de amigos: ${friends}`);
+        //console.log(`lista de amigos: ${friends}`);
         displayfriends();
     }
 }
