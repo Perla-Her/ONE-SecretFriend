@@ -10,7 +10,7 @@ function cleanbox(){
 }
 
 //Funcion para solicitar nombre y validar que el campo esta lleno y es valido
-function getnames(){
+function agregarAmigo(){
     let userinput = document.getElementById("amigo");
     let name = userinput.value;
 
@@ -51,7 +51,7 @@ function displayfriends(){
 }
 
 //Funcion para el sorteo aleatorio
-function pickRandomFriend() {
+function sortearAmigo() {
     //validar si hay amigos en el arreglo
     if (friends.length === 0) {
         alert("Agrega al menos dos amigos antes de sortear.");
